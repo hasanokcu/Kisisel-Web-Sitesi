@@ -1,0 +1,52 @@
+body{ /* body üzerinde işlem yapıyorum. kenarları sıfırlamak için margin 0 padding 0 verdim. */
+    margin: 0;
+    padding: 0;
+    background: url(black-background-1468370534d5s.jpg);    /* arka plan resmi koydum */
+    background-size: cover; /* arka planın ortadan gelmesi için background-size: cover kullandım */
+}
+.box{   /* boxa kutu verdim */
+    width: 450px;   /* genişlik */
+    background-color: gray; /* kutunun rengi */
+    padding: 40px;  /* kutunun içindekilere boşluk verdim */
+    text-align: center; /* kutunun içindekileri merkeze verdim */
+    margin: auto;   /* kutu tamamen ortalanmış oldu */
+    margin-top: 5%; /* yukardan %5 boşluk verildi */
+    color: white;   /* yazı renkleri beyaz oldu */
+    font-family: sans-serif; /* yazı tipi sans serif oldu */
+}
+.box img{ /* resim üzerinde işlem yapıyorum */
+    border-radius: 50%; /* kenarlık veriyorum */
+    width: 200px; /* genişlik veriyorum */
+    height: 200px;  /* uzunluk veriyorum */
+    transition: 0.5s;   /* geçiş esnasına bir süre veriyorum */
+    cursor: pointer; /* imleç değiştirmek için cursor: pointer kullanıyorum */
+}
+.box img :hover{    /* img hover da fareyi götürdüğüm zaman */
+    transform: scale(0.9); /* fare götürüldüğünde içeri doğru bir yaklaşma olacak */
+}
+.box h1{    /* başlık 1 üzerinde işlem yapıyorum */
+    font-size: 40px;    /* yazı boyutu */
+    letter-spacing: 4px; /* harfler arası boşluk */
+    font-weight: 100;   /* yazı kalınlığı */
+}
+.box h5{    /* başlık 2 üzerinde işlem yapıyorum */
+    font-size: 20px;    /* yazı boyutu */
+    font-weight: 100;   /* yazı kalınlığı */
+    letter-spacing: 3px; /* harfler arası boşluk */
+}
+.box p{ /* paragraf üzerinde işlem yapıyorum */
+    text-align: justify;    /* yazıyı iki yana yasladım */
+}
+ul{ /* listeye genel olarak margin ve padding 0 vererek boşlukları silmiş oldum */
+    margin: 0;
+    padding: 0;
+}
+.box li{ /* liste üzerinde işlem yapıyorum */
+    display: inline-block;  /* listeyi yan yana gelecek hale getirdim */
+    margin: 6px; /* liste elemanlarının araları açılmış oldu */
+    list-style: none; /* liste stili zaten olduğu için none dedim */
+}
+.box li a{  /* ikonlar üzerinde işlem yapıyorum */
+    color: white;   /* renk veriyorum */
+    font-size: 60px;  /* ikona boyut  verdim */ 
+}
